@@ -17,3 +17,14 @@ let age = 30;
 let isApproved = false;
 let happy = undefined;
 let color = null;
+
+const parent = document.getElementById('parent');
+const child = document.getElementById('child');
+
+parent.addEventListener("click", function(){
+  console.log("i am the parent");
+});
+
+child.addEventListener("click", function(){
+  console.log("i am the child");
+});
