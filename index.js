@@ -28,3 +28,12 @@ parent.addEventListener("click", function(){
 child.addEventListener("click", function(){
   console.log("i am the child");
 });
+
+
+
+var ageVer = function(age){
+  if(age > 10){
+    console.log("you are older")
+  }
+}
+ ageVer(9)
